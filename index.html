@@ -1,0 +1,301 @@
+<!-- ons -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link rel="stylesheet" href="./styles.css">
+
+  <link rel="stylesheet" href="./Media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+  <!---------- HEADER SECTION START ---------->
+
+  <header>
+    <div class="logo">SIRI</div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume" class="resume">Resume</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fa-sharp fa-solid fa-bars"></i>
+    </div>
+  </header>
+  <!---------- HEADER SECTION END ---------->
+
+
+  <!---------- ABOUT SECTION START ---------->
+
+  <section id="about">
+
+    <div class="about-content">
+
+
+      <h2>Hey! There I'M</h2>
+
+      <h1>SHIRISHA DUNDIGALA</h1>
+
+
+      <p>As a recent graduate in Computer Science and Engineering, <br>I have developed a strong foundation in
+        programming, algorithms, and web development. My academic projects have allowed me to gain practical experience
+        and a deep understanding of creating dynamic and user-friendly web applications. I am excited to bring my
+        enthusiasm for web development to a dynamic team, where I can contribute to innovative projects and continue to
+        grow professionally.</p>
+
+    </div>
+
+
+
+    <div class="profile-image">
+
+      <img src="SIRI.png" alt="">
+
+    </div>
+
+  </section>
+
+
+
+
+  <!---------- ABOUT SECTION END ---------->
+
+
+  <!---------- SKILL SECTION START ---------->
+
+
+  <section id="skills">
+
+    <h2 class="main-heading">Skills</h2>
+
+
+    <div class="skill-content">
+
+      <!---------- TECHNICAL-SKILLS---------->
+
+
+      <div class="technical-skills">
+
+        <h2>Technical-skills</h2>
+
+        <div class="skill-bar-container">
+          <div class="skill-bar">
+            <span class="skill-name">HTML</span>
+            <div class="bar">
+              <div class="fill" style="width: 85%"> </div>
+              <span class="percentage1">85%</span>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+          <div class="skill-bar">
+            <span class="skill-name">CSS</span>
+            <div class="bar">
+              <div class="fill" style="width: 75%"></div>
+              <span class="percentage1">75%</span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <span class="skill-name">JavaScript</span>
+            <div class="bar">
+              <div class="fill" style="width: 60%"></div>
+              <span class="percentage1">60%</span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <span class="skill-name">React</span>
+            <div class="bar">
+              <div class="fill" style="width: 60%"></div>
+              <span class="percentage1">60%</span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <span class="skill-name">Python</span>
+            <div class="bar">
+              <div class="fill" style="width: 60%"></div>
+              <span class="percentage1">60%</span>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      <!---------- TECHNICAL-SKILLS---------->
+
+      <!---------- SOFT-SKILLS---------->
+
+      <div class="soft-skills">
+
+        <h2>Soft-skills</h2>
+        <div class="skill-container1">
+          <div class="skill">
+            <svg class="progress-circle" width="100" height="100">
+              <circle class="bg" cx="50" cy="50" r="45"></circle>
+              <circle class="progress" cx="50" cy="50" r="45" data-percentage="50"></circle>
+            </svg>
+            <div class="percentage">50%</div>
+            <div class="skill-name">Communication</div>
+          </div>
+          <div class="skill">
+            <svg class="progress-circle" width="100" height="100">
+              <circle class="bg" cx="50" cy="50" r="45"></circle>
+              <circle class="progress" cx="50" cy="50" r="45" data-percentage="60"></circle>
+            </svg>
+            <div class="percentage">60%</div>
+            <div class="skill-name">Teamwork</div>
+          </div>
+          <div class="skill">
+            <svg class="progress-circle" width="100" height="100">
+              <circle class="bg" cx="50" cy="50" r="45"></circle>
+              <circle class="progress" cx="50" cy="50" r="45" data-percentage="40"></circle>
+            </svg>
+            <div class="percentage">40%</div>
+            <div class="skill-name">Problem Solving</div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <!---------- SOFT-SKILLS---------->
+
+    </div>
+  </section>
+
+  <!---------- SKIL SECTION END ---------->
+
+
+  <!---------- PROJECT SECTION START ---------->
+
+
+  <section id="projects">
+    <h2 class="main-heading">Projects</h2>
+
+
+
+    <div class="project-container">
+      <div class="portfolio-card">
+
+
+        <img src="./Screenshot 2024-11-21 122557.png" alt="Project Image">
+        <div class="content">
+          <h3>To-Do List App</h3>
+          <p> Developed a dynamic to-do list application using HTML, CSS, and JavaScript, enabling users to add, manage,
+            and delete tasks effortlessly.</p>
+          <a href="https://siri1007.github.io/To-do-list/" class="btn-view" target="_blank">View Project</a>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="portfolio-card">
+
+        <img src="./Screenshot 2024-11-21 131212.png" alt="Project Image">
+
+        <div class="content">
+          <h3>Basic Calculator</h3>
+          <p> Built an interactive calculator with essential arithmetic functionalities, showcasing clean UI design and
+            efficient JavaScript logic.</p>
+          <a href="https://siri1007.github.io/Basic-level-Calculator/" class="btn-view" target="_blank">View Project</a>
+        </div>
+      </div>
+
+
+
+      <div class="portfolio-card">
+
+        <img src="./Screenshot 2024-11-21 122628.png" alt="Project Image">
+
+        <div class="content">
+          <h3>Guess the Actor Game</h3>
+          <p> Designed an interactive game with HTML, CSS, and JavaScript where users input guesses to identify actors,
+            featuring intuitive logic and responsive design.</p>
+          <a href="https://siri1007.github.io/-Gusessing-Favorite-Actor/" class="btn-view" target="_blank">View
+            Project</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+  </section>
+
+  <!---------- PROJECT SECTION END ---------->
+
+
+  <!---------- CONTACT SECTION START ---------->
+
+
+  <section id="contact">
+    <h2>
+      Get in touch
+    </h2>
+
+    <div class="icons">
+
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+      <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+      <a href="#"> <i class="fa-brands fa-github"></i></a>
+
+
+    </div>
+  </section>
+
+
+  <!---------- CONTACT SECTION END ---------->
+
+
+
+
+  <!---------- FOOTER SECTION START ---------->
+  <footer class="footer">
+
+    <p>&copy; Created by <strong>SIRI</strong> All rights reserved.</p>
+
+  </footer>
+
+
+
+  <!---------- FOOTER SECTION End ---------->
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

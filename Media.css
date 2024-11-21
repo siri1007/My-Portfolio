@@ -1,0 +1,167 @@
+@media screen and (max-width: 560px) {
+  header {
+    padding: 30px 50px;
+  }
+
+  header nav ul {
+    top: 80px;
+  }
+
+  /* -----------About Styling Start------------- */
+
+  #about {
+    flex-direction: column;
+    padding: 50px 60px;
+  }
+
+  .about-content {
+    max-width: 400px;
+  }
+
+  .about-content h1 {
+    font-size: 30px;
+  }
+
+  .profile-image {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  /* -----------About Styling End------------- */
+
+  /* -----------Skill Styling Start------------- */
+
+  #skills {
+    padding: 70px 0px;
+  }
+  .main-heading {
+    text-align: center;
+    font-size: 40px;
+    margin: 0px auto 90px;
+    width: 200px;
+    color: #0c4c69;
+  }
+
+  .skill-content {
+    flex-direction: column;
+  }
+
+  #projects {
+    padding: 50px 0;
+  }
+
+  .project-container {
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 auto;
+  }
+
+  .portfolio-card {
+    margin: 0 auto;
+    width: 400px;
+  }
+ 
+ 
+
+  #contact {
+    padding: 0px;
+  }
+
+  #contact h2 {
+    font-size: 40px;
+    width: 300px;
+    padding: 100px 0;
+    margin: 0 auto;
+  }
+
+  .technical-skills h2 {
+    width: 200px;
+    margin: 0 auto 60px;
+  }
+
+  .soft-skills h2 {
+    width: 200px;
+    margin: 60px auto;
+  }
+
+  .technical-skills {
+    width: auto;
+  }
+  .soft-skills {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  #about {
+    padding: 0;
+  }
+
+  .skill-bar-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .project-container {
+    padding: 0;
+  }
+
+  #projects .main-heading {
+    margin-bottom: 50px;
+  }
+
+  .portfolio-card {
+    width: auto;
+  }
+  
+}
+
+@media screen and (max-width: 348px) {
+  .about-content {
+    width: auto;
+  }
+  .about-content h1 {
+    font-size: 25px;
+  }
+
+  .about-content h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1398px) {
+  header {
+    padding: 20px 60px;
+  }
+
+  #about {
+    padding: 100px;
+  }
+  #skills {
+    padding: 70px 100px;
+  }
+
+  #projects {
+    padding: 70px 50px;
+  }
+  .project-container {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 630px) and (max-width: 869px) {
+  header {
+    padding: 20px 60px;
+  }
+
+  #about {
+    padding: 50px;
+  }
+
+  #skills {
+    padding: 70px 0px;
+  }
+  #projects {
+    padding: 70px 0px;
+  }
+}
